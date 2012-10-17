@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D217ECA162D8B8300668B3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D217EC9162D8B8300668B3C /* UIKit.framework */; };
+		2D217ECC162D8B8300668B3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D217ECB162D8B8300668B3C /* Foundation.framework */; };
+		2D217ECE162D8B8300668B3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D217ECD162D8B8300668B3C /* CoreGraphics.framework */; };
+		2D217ED4162D8B8300668B3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D217ED2162D8B8300668B3C /* InfoPlist.strings */; };
+		2D217ED6162D8B8300668B3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D217ED5162D8B8300668B3C /* main.m */; };
+		2D217EDA162D8B8300668B3C /* AKPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D217ED9162D8B8300668B3C /* AKPAppDelegate.m */; };
+		2D217EDD162D8B8300668B3C /* AKPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D217EDC162D8B8300668B3C /* AKPViewController.m */; };
+		2D217EE0162D8B8300668B3C /* AKPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D217EDE162D8B8300668B3C /* AKPViewController.xib */; };
+		2D217EE8162D8B8500668B3C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D217EE7162D8B8500668B3C /* SenTestingKit.framework */; };
+		2D217EE9162D8B8500668B3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D217EC9162D8B8300668B3C /* UIKit.framework */; };
+		2D217EEA162D8B8500668B3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D217ECB162D8B8300668B3C /* Foundation.framework */; };
+		2D217EF2162D8B8500668B3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D217EF0162D8B8500668B3C /* InfoPlist.strings */; };
+		2D217EF5162D8B8500668B3C /* UITextFieldScrollingView_sampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D217EF4162D8B8500668B3C /* UITextFieldScrollingView_sampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D217EEB162D8B8500668B3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D217EBC162D8B8000668B3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D217EC4162D8B8300668B3C;
+			remoteInfo = "UITextFieldScrollingView-sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D217EC5162D8B8300668B3C /* UITextFieldScrollingView-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITextFieldScrollingView-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D217EC9162D8B8300668B3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2D217ECB162D8B8300668B3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2D217ECD162D8B8300668B3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2D217ED1162D8B8300668B3C /* UITextFieldScrollingView-sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITextFieldScrollingView-sample-Info.plist"; sourceTree = "<group>"; };
+		2D217ED3162D8B8300668B3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D217ED5162D8B8300668B3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D217ED7162D8B8300668B3C /* UITextFieldScrollingView-sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextFieldScrollingView-sample-Prefix.pch"; sourceTree = "<group>"; };
+		2D217ED8162D8B8300668B3C /* AKPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKPAppDelegate.h; sourceTree = "<group>"; };
+		2D217ED9162D8B8300668B3C /* AKPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKPAppDelegate.m; sourceTree = "<group>"; };
+		2D217EDB162D8B8300668B3C /* AKPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKPViewController.h; sourceTree = "<group>"; };
+		2D217EDC162D8B8300668B3C /* AKPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKPViewController.m; sourceTree = "<group>"; };
+		2D217EDF162D8B8300668B3C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AKPViewController.xib; sourceTree = "<group>"; };
+		2D217EE6162D8B8500668B3C /* UITextFieldScrollingView-sampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITextFieldScrollingView-sampleTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D217EE7162D8B8500668B3C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2D217EEF162D8B8500668B3C /* UITextFieldScrollingView-sampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITextFieldScrollingView-sampleTests-Info.plist"; sourceTree = "<group>"; };
+		2D217EF1162D8B8500668B3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D217EF3162D8B8500668B3C /* UITextFieldScrollingView_sampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITextFieldScrollingView_sampleTests.h; sourceTree = "<group>"; };
+		2D217EF4162D8B8500668B3C /* UITextFieldScrollingView_sampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextFieldScrollingView_sampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D217EC2162D8B8300668B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D217ECA162D8B8300668B3C /* UIKit.framework in Frameworks */,
+				2D217ECC162D8B8300668B3C /* Foundation.framework in Frameworks */,
+				2D217ECE162D8B8300668B3C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D217EE2162D8B8500668B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D217EE8162D8B8500668B3C /* SenTestingKit.framework in Frameworks */,
+				2D217EE9162D8B8500668B3C /* UIKit.framework in Frameworks */,
+				2D217EEA162D8B8500668B3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D217EBA162D8B8000668B3C = {
+			isa = PBXGroup;
+			children = (
+				2D217ECF162D8B8300668B3C /* UITextFieldScrollingView-sample */,
+				2D217EED162D8B8500668B3C /* UITextFieldScrollingView-sampleTests */,
+				2D217EC8162D8B8300668B3C /* Frameworks */,
+				2D217EC6162D8B8300668B3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D217EC6162D8B8300668B3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D217EC5162D8B8300668B3C /* UITextFieldScrollingView-sample.app */,
+				2D217EE6162D8B8500668B3C /* UITextFieldScrollingView-sampleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D217EC8162D8B8300668B3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D217EC9162D8B8300668B3C /* UIKit.framework */,
+				2D217ECB162D8B8300668B3C /* Foundation.framework */,
+				2D217ECD162D8B8300668B3C /* CoreGraphics.framework */,
+				2D217EE7162D8B8500668B3C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D217ECF162D8B8300668B3C /* UITextFieldScrollingView-sample */ = {
+			isa = PBXGroup;
+			children = (
+				2D217ED8162D8B8300668B3C /* AKPAppDelegate.h */,
+				2D217ED9162D8B8300668B3C /* AKPAppDelegate.m */,
+				2D217EDB162D8B8300668B3C /* AKPViewController.h */,
+				2D217EDC162D8B8300668B3C /* AKPViewController.m */,
+				2D217EDE162D8B8300668B3C /* AKPViewController.xib */,
+				2D217ED0162D8B8300668B3C /* Supporting Files */,
+			);
+			path = "UITextFieldScrollingView-sample";
+			sourceTree = "<group>";
+		};
+		2D217ED0162D8B8300668B3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D217ED1162D8B8300668B3C /* UITextFieldScrollingView-sample-Info.plist */,
+				2D217ED2162D8B8300668B3C /* InfoPlist.strings */,
+				2D217ED5162D8B8300668B3C /* main.m */,
+				2D217ED7162D8B8300668B3C /* UITextFieldScrollingView-sample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D217EED162D8B8500668B3C /* UITextFieldScrollingView-sampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D217EF3162D8B8500668B3C /* UITextFieldScrollingView_sampleTests.h */,
+				2D217EF4162D8B8500668B3C /* UITextFieldScrollingView_sampleTests.m */,
+				2D217EEE162D8B8500668B3C /* Supporting Files */,
+			);
+			path = "UITextFieldScrollingView-sampleTests";
+			sourceTree = "<group>";
+		};
+		2D217EEE162D8B8500668B3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D217EEF162D8B8500668B3C /* UITextFieldScrollingView-sampleTests-Info.plist */,
+				2D217EF0162D8B8500668B3C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D217EC4162D8B8300668B3C /* UITextFieldScrollingView-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D217EF8162D8B8500668B3C /* Build configuration list for PBXNativeTarget "UITextFieldScrollingView-sample" */;
+			buildPhases = (
+				2D217EC1162D8B8300668B3C /* Sources */,
+				2D217EC2162D8B8300668B3C /* Frameworks */,
+				2D217EC3162D8B8300668B3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITextFieldScrollingView-sample";
+			productName = "UITextFieldScrollingView-sample";
+			productReference = 2D217EC5162D8B8300668B3C /* UITextFieldScrollingView-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D217EE5162D8B8500668B3C /* UITextFieldScrollingView-sampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D217EFB162D8B8500668B3C /* Build configuration list for PBXNativeTarget "UITextFieldScrollingView-sampleTests" */;
+			buildPhases = (
+				2D217EE1162D8B8500668B3C /* Sources */,
+				2D217EE2162D8B8500668B3C /* Frameworks */,
+				2D217EE3162D8B8500668B3C /* Resources */,
+				2D217EE4162D8B8500668B3C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D217EEC162D8B8500668B3C /* PBXTargetDependency */,
+			);
+			name = "UITextFieldScrollingView-sampleTests";
+			productName = "UITextFieldScrollingView-sampleTests";
+			productReference = 2D217EE6162D8B8500668B3C /* UITextFieldScrollingView-sampleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D217EBC162D8B8000668B3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AKP;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2D217EBF162D8B8100668B3C /* Build configuration list for PBXProject "UITextFieldScrollingView-sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2D217EBA162D8B8000668B3C;
+			productRefGroup = 2D217EC6162D8B8300668B3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D217EC4162D8B8300668B3C /* UITextFieldScrollingView-sample */,
+				2D217EE5162D8B8500668B3C /* UITextFieldScrollingView-sampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D217EC3162D8B8300668B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D217ED4162D8B8300668B3C /* InfoPlist.strings in Resources */,
+				2D217EE0162D8B8300668B3C /* AKPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D217EE3162D8B8500668B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D217EF2162D8B8500668B3C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D217EE4162D8B8500668B3C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D217EC1162D8B8300668B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D217ED6162D8B8300668B3C /* main.m in Sources */,
+				2D217EDA162D8B8300668B3C /* AKPAppDelegate.m in Sources */,
+				2D217EDD162D8B8300668B3C /* AKPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D217EE1162D8B8500668B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D217EF5162D8B8500668B3C /* UITextFieldScrollingView_sampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D217EEC162D8B8500668B3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D217EC4162D8B8300668B3C /* UITextFieldScrollingView-sample */;
+			targetProxy = 2D217EEB162D8B8500668B3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D217ED2162D8B8300668B3C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D217ED3162D8B8300668B3C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2D217EDE162D8B8300668B3C /* AKPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D217EDF162D8B8300668B3C /* en */,
+			);
+			name = AKPViewController.xib;
+			sourceTree = "<group>";
+		};
+		2D217EF0162D8B8500668B3C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D217EF1162D8B8500668B3C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D217EF6162D8B8500668B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D217EF7162D8B8500668B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D217EF9162D8B8500668B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITextFieldScrollingView-sample/UITextFieldScrollingView-sample-Prefix.pch";
+				INFOPLIST_FILE = "UITextFieldScrollingView-sample/UITextFieldScrollingView-sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2D217EFA162D8B8500668B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITextFieldScrollingView-sample/UITextFieldScrollingView-sample-Prefix.pch";
+				INFOPLIST_FILE = "UITextFieldScrollingView-sample/UITextFieldScrollingView-sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2D217EFC162D8B8500668B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UITextFieldScrollingView-sample.app/UITextFieldScrollingView-sample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITextFieldScrollingView-sample/UITextFieldScrollingView-sample-Prefix.pch";
+				INFOPLIST_FILE = "UITextFieldScrollingView-sampleTests/UITextFieldScrollingView-sampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2D217EFD162D8B8500668B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UITextFieldScrollingView-sample.app/UITextFieldScrollingView-sample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITextFieldScrollingView-sample/UITextFieldScrollingView-sample-Prefix.pch";
+				INFOPLIST_FILE = "UITextFieldScrollingView-sampleTests/UITextFieldScrollingView-sampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D217EBF162D8B8100668B3C /* Build configuration list for PBXProject "UITextFieldScrollingView-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D217EF6162D8B8500668B3C /* Debug */,
+				2D217EF7162D8B8500668B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D217EF8162D8B8500668B3C /* Build configuration list for PBXNativeTarget "UITextFieldScrollingView-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D217EF9162D8B8500668B3C /* Debug */,
+				2D217EFA162D8B8500668B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D217EFB162D8B8500668B3C /* Build configuration list for PBXNativeTarget "UITextFieldScrollingView-sampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D217EFC162D8B8500668B3C /* Debug */,
+				2D217EFD162D8B8500668B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D217EBC162D8B8000668B3C /* Project object */;
+}
